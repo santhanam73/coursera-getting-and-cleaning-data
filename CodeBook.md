@@ -8,6 +8,7 @@ Column 2: activity: 6 different types of activity
 levels:LAYING,SITTING,STANDING,WALKING,WALKING_DOWNSTAIRS,WALKING_UPSTAIRS
 
 Column3 ~ Column 66: feature vector: average of the measurement containing mean() or std() 
+
 timeBodyAccelerometer-MEAN()-X
 timeBodyAccelerometer-MEAN()-Y
 timeBodyAccelerometer-MEAN()-Z
