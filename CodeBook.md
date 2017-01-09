@@ -7,7 +7,9 @@ person serial numbers from 1 to 30
 Column 2: activity: 6 different types of activity 
 levels:LAYING,SITTING,STANDING,WALKING,WALKING_DOWNSTAIRS,WALKING_UPSTAIRS
 
-Column3 ~ Column 66: feature vector: average of the measurement containing mean() or std() 
+Column 3 - Activity number matching levels 6,4,5,1,3,2
+
+Column 4 ~ Column 66: feature vector: average of the measurement containing mean() or std() 
 
 timeBodyAccelerometer-MEAN()-X
 
