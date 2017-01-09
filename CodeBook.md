@@ -40,3 +40,32 @@ The following files are available for the train and test data. Their description
 - 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
+
+ Step1 : Read the above files and create data tables.
+
+ Step 2 : Merges the training and the test sets to create one data set.
+ 
+   Use the dplyr and data.table packages.
+ 
+ Step3 :Extracts only the measurements on the mean and standard deviation for each measurement.
+  use the grep along with grep,union and subset functions
+ 
+ Step4. Uses descriptive activity names to name the activities in the data set
+ 
+   enter name of activity into dataTable
+   create dataTable with variable means sorted by subject and Activity
+ 
+ 
+Step 5: Appropriately label the data set with descriptive variable names.
+        leading t or f is based on time or frequency measurements.
+        Body = related to body movement.
+        Gravity = acceleration of gravity
+        Acc = accelerometer measurement
+        Gyro = gyroscopic measurements
+        Jerk = sudden movement acceleration
+        Mag = magnitude of movement
+        mean and SD are calculated for each subject for each activity for each mean and SD measurements. The units given are g’s for the         accelerometer and rad/sec for the gyro and g/sec and rad/sec/sec for the corresponding jerks.
+        
+ Step6:From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+    use the write table method
+ 
